@@ -32,7 +32,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: "../imgs/mixmaster.png",
+    img: "./src/imgs/mixmaster.png",
     url: "https://felipesmixmaster.netlify.app/",
     github:
       "https://github.com/Flying-Spaghetti-Monster69/Mix_Master_React_Project",
