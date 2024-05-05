@@ -12,19 +12,19 @@ export const skills = [
   {
     id: nanoid(),
     title: "HTML&CSS",
-    icon: <FaHtml5 className="h-16 w-16 text-zinc-500" />,
+    icon: <FaHtml5 className="h-16 w-16 text-[#fe4c1e]" />,
     text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
   },
   {
     id: nanoid(),
     title: "Javascript",
-    icon: <FaJs className="h-16 w-16 text-zinc-500" />,
+    icon: <FaJs className="h-16 w-16 text-[#f7e018]" />,
     text: "Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality",
   },
   {
     id: nanoid(),
     title: "React",
-    icon: <FaReact className="h-16 w-16 text-zinc-500" />,
+    icon: <FaReact className="h-16 w-16 text-[#61dafb]" />,
     text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
   },
 ];
@@ -32,11 +32,12 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800",
-    url: "https://react-projects.netlify.app/",
-    github: "https://github.com/john-smilga",
-    title: "first project",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    img: "../imgs/mixmaster.png",
+    url: "https://felipesmixmaster.netlify.app/",
+    github:
+      "https://github.com/Flying-Spaghetti-Monster69/Mix_Master_React_Project",
+    title: "Mix master",
+    text: "An interactive site where you can lookup drinks and how to make them. It uses the Cocktails DB API.",
   },
   {
     id: nanoid(),
